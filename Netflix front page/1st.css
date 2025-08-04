@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    background-color:rgba(12, 3, 3, 0.981);
+}
+.navbar{
+    height: 50px;
+    background-color: rgb(4, 0, 0);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.nav-logo{
+    height: 60px;
+    width: 150px;
+}
+.logo{
+    background-image: url("logo2.c");
+    height: 70px;
+    width: 160px;
+    background-size: cover;
+    margin-left: 20px;
+    
+}
+
+
+select{
+color: azure;
+background-color: black;
+font-size: 18px;
+padding: 10px 20px;
+margin-left:auto ;
+margin-right :35px;
+border: black;
+}
+.nav-butten{
+    color: aliceblue;
+background-color: #e50914;
+Padding: 6px 10px;
+border-radius: 4px;   
+font-weight: bold;
+font-size: 16px;
+cursor: pointer;
+margin-right: 30px;
+border-color: #e50914;
+}
+/*hero section*/
+.herosection{
+    background-image:url(WhatsApp\ Image\ 2025-06-09\ at\ 19.15.49.jpeg) ;
+    height: 610px;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.herosection .hero-heading {
+    font-size: 3em; 
+    font-weight: 900; 
+    margin-bottom: 20px; 
+    line-height: 1.2; 
+    margin-bottom: 50px;
+}
+
+.herosection .hero-description {
+    font-size: 1em; 
+    font-weight: 400; 
+    margin-top: 0; 
+    line-height: 1; 
+    margin-bottom: 50px;
+}
+.moon{
+    background-image:url(Screenshot\ 2025-06-07\ at\ 8.44.23\ PM.png ) ;
+    height: 70px;
+    background-size: cover;
+}
+p{color: aliceblue;
+   font-size: larger;
+font-weight: 1500px;
+}
+.email-signup-container {
+    display: flex; /* Often used for layout */
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between elements */
+}
+
+input[type="email"] {
+    color: #ccc;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #880a10; /* Slightly darker red on hover */
+}
+.content-section {
+    padding: 20px;
+}
+
+.Trending {
+    font-style: bold;
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 15px;
+    margin-top: 40px; /* Space above each section */
+    margin-left: 60px;
+}
+
+/* Styles for the bar above the movie carousels */
+
+
+.movie-carousel {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    padding-bottom: 20px; /* Space for scrollbar and bottom shadow */
+    gap: 50px; /* Space between movie cards */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    margin-left: 60px;
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.movie-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.movie-card {
+    
+    flex-shrink: 0; /* Prevent cards from shrinking */
+    width: 150px; /* Example width for a movie card */
+    height: 210px; /* Example height */
+    background-color: #333; /* Placeholder for movie image */
+    border-radius: 5px;
+    display: flex;
+    justify-content:left;
+    align-items:end;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(237, 237, 237);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    /* You would replace background-color with a background-image for actual movie posters */
+
+    
+
+}
+#wednesday{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcMvzTK3P4utQeyTN-LXqnSI0RVoqvqxT50J6jbX61_vBydTUS);
+    background-size: cover;
+}
+#mercy{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8S5zv8ObR2Jr6FQmVS0YIjybVdXGfr5T8vTbJZsscFbB7DjPz2nozilmGSgOqb9rknVU&usqp=CAU);
+background-size: cover;
+}
+   
+#squidgames{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/3/38/Squid_Game_season_2_poster.png);
+   background-size: cover;
+
+}
+#tangerines{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSoLfQeyH87AekmbkqBN1g3okgztgQZmDiDBRhTFIHhseMDOUEGZcr5L1EB77z8NEskxaAPLQ);
+   background-size: cover;
+
+}
+#ginnyandgeorgia{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZ9QI426KBUk6w5NQg8knYnOFuAhPAHLXNtNVIQeej4ygJxAxkXUzqyXx1g_osrQJUaEI);
+   background-size: cover;
+
+}
+#great{
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTLXf-vlPsjTO7EBgSJfcnEI7t9_ixkZJg5lFyi62E5_f2eOgEEu3F5im6uY3lcuR9JrX6YVA);
+   background-size: cover;
+
+}
+#royals{
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDN4GRrOiDlYLi5A_blws9J-NtNgE5jYjSspyPsPfVql6E1nFvL5fxekOlun8ADiwiRUzm);
+   background-size: cover;
+
+}
+#true{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNg52z54n_3ASdAAzdlCi5X-zA0JVRqSloQYTG92gGLgEbJX_A5R6RB7pmuZgOuYRuWNrbIw);
+background-size: cover;
+}
+#fubar{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSCgZU8g7Kah_jZsw3uaVs9WF1weQItog1G0yI9Oqn_WcUHNxVN);
+   background-size: cover;
+
+}
+#tastefully{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs5PBmV6Jlx81kpuTU2nFT0MIC4ogl0cJ0QrKc7t20V0YYmxrG-Veqn0Mj7BXtUVUT1eK1EA);
+   background-size: cover;
+
+}
+.features-grid {
+    display: grid;
+    /* This creates a 2-column layout.
+       You can adjust 'minmax(0, 1fr)' for more control.
+       repeat(auto-fit, minmax(450px, 1fr)) would make it responsive for smaller screens
+    */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Space between the grid items (feature cards) */
+    margin-left: 70px;
+    margin-right: 80px;
+    margin-top: 0px;
+}
+
+.feature-card {
+    background-color:rgb(52, 45, 68);
+    border-radius: 20px; /* Slightly rounded corners */
+    padding: 30px;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Push icon to the bottom/right */
+    position: relative; /* For absolute positioning of the icon */
+    min-height: 180px; /* Ensure consistent height for cards */
+}
+
+.heading{
+     background-color:rgb(52, 45, 68);
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-weight: 1000; /* Slightly bold */
+}
+
+.feature-card p {
+     background-color:rgb(52, 45, 68);
+    
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px; /* Space between text and icon if it's inline */
+    flex-grow: 1; /* Allow paragraph to take up available space */
+}
+
+.feature-icon {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    width: 60px; /* Size of the icon */
+    height: auto;
+    opacity: 0.7; /* Slightly faded, similar to the image */
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .features-grid {
+        grid-template-columns: 1fr; /* Stack cards vertically on smaller screens */
+    }
+
+    .more-reasons-section {
+        width: 95%; /* Adjust width for smaller screens */
+        margin-top: 20px;
+    }
+
+    .section-title {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .feature-card {
+        padding: 25px;
+        min-height: auto; /* Allow height to adjust */
+    }
+
+    .feature-icon {
+        width: 50px; /* Smaller icons on small screens */
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.8em;
+    }
+    .feature-card h3 {
+        font-size: 1.3em;
+    }
+    .feature-card p {
+        font-size: 1em;
+    }
+}
+
+.faq-container {
+    color: rgb(62, 59, 59);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1100px;
+}
+
+h1 {
+    font-weight: 600;
+    
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border: 1px solid rgb(61, 56, 56);;
+    border-radius: 5px;
+    overflow: hidden; /* Ensures borders are rounded correctly */
+}
+
+.faq-question {
+    background-color: rgb(61, 56, 56);
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* For icon positioning */
+    list-style: none; /* Remove default summary bullet */
+    font-size: 24px; /* Adjust font size */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect */
+.faq-question:hover {
+    background-color: #505050; /* A darker gray */
+
+}
+
+/* Style for the default marker (arrow) provided by <summary> */
+details > summary::marker,
+details > summary::-webkit-details-marker {
+  display: none; /* Hide default arrow */
+}
+
+
+.faq-question .icon {
+    color: aliceblue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.faq-question .icon::before,
+.faq-question .icon::after {
+    content: '';
+    position: absolute;
+    background-color:white;
+    transition: transform 0.3s ease;
+}
+
+/* Vertical line for the plus */
+.faq-question .icon::before {
+   
+    color: white;
+    width: 2px;
+    height: 16px;
+    top: 2px;
+    left: 9px;
+}
+
+/* Horizontal line for the plus */
+.faq-question .icon::after {
+    
+    color: white;
+    width: 16px;
+    height: 2px;
+    top: 9px;
+    left: 2px;
+}
+
+/* Rotate the horizontal line to form a minus when open */
+.faq-item[open] .faq-question .icon::after {
+    transform: rotate(90deg); /* This effectively hides the horizontal bar, making it look like a minus */
+}
+
+/* For the plus/minus icon, when the details is open, the horizontal bar (::after) will be rotated 90deg,
+   making it disappear behind the vertical bar (::before), thus appearing as a minus sign. */
+.faq-item[open] .faq-question .icon::after {
+    transform: rotate(90deg);
+}
+
+
+.faq-answer {
+    font-size: large;
+    padding: 0 20px 15px;
+    background-color: rgb(61, 56, 56);
+    border-top: 1px solid #eee;
+    color: #555;
+}
+
+.faq-answer p {
+    margin: 10px 0 0;
+    line-height: 1.6;
+    background-color: rgb(61, 56, 56);
+}
+.questions-call {
+    color: #737373; /* Grey text */
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 0.9rem;
+}
+.ready-to-watch{
+    margin-left: 30px;
+}
+
+.questions-call a {
+    color: #a09e9e;
+    text-decoration: none;
+
+}
+
+.questions-call a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    margin-top: 50px; /* Space from the content above */
+    margin-left: 30px;
+    padding: 20px 0;
+    color: #a09e9e; /* Grey text for footer */
+}
+
+.footer-links-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0 20px; /* Indent the links */
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #a09e9e;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.language-selector {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.language-selector select {
+    background-color: #000;
+    color:white;
+    border: 1px solid #a09e9e;
+    padding: 11px 16px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.netflix-india {
+    padding: 0 20px;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.recaptcha-notice {
+    padding: 0 20px;
+    font-size: 0.75rem;
+    color: #8c8c8c; /* Slightly different shade for this text */
+}
+
+.recaptcha-notice a {
+    color: #2d70b6; /* Netflix blue for links */
+    text-decoration: none;
+}
+
+.recaptcha-notice a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .signup-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-started-btn {
+        
+        width: 80%;
+        max-width: 350px;
+        justify-content: center; /* Center the text and arrow */
+    }
+
+    .footer-links-container {
+        grid-template-columns: 1fr; /* Stack columns on very small screens */
+        text-align: center;
+    }
+
+    .footer-links {
+        padding: 0; /* Remove padding for centering */
+    }
+
+    .questions-call,
+    .language-selector,
+    .netflix-india,
+    .recaptcha-notice {
+        text-align: center;
+        padding: 0 10px;
+    }
+}
