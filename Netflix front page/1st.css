@@ -437,10 +437,10 @@ details > summary::-webkit-details-marker {
 /* Footer Section */
 .footer {
     width: 100%;
-    margin-top: 50px; /* Space from the content above */
+    margin-top: 50px; 
     margin-left: 30px;
     padding: 20px 0;
-    color: #a09e9e; /* Grey text for footer */
+    color: #b4afaf;
 }
 
 .footer-links-container {
